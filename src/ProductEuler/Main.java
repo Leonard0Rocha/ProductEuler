@@ -1,6 +1,6 @@
 package ProductEuler;
 
-import Exercicio4.palindromo;
+import Exercicio4.Palindromo;
 import Util.*;
 
 public class Main {

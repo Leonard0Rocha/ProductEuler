@@ -2,7 +2,8 @@ package Util;
 
 import java.util.Scanner;
 
-import Exercicio4.palindromo;
+import Exercicio4.Palindromo;
+import Exercicio7.Primo;
 
 public class Util {
 
@@ -25,12 +26,14 @@ public class Util {
 		
 			switch (dadoDigitado) {
 			case 1:
-				palindromo palimedro = new palindromo();
-				palimedro.teste();
+				Palindromo palimedro = new Palindromo();
+				palimedro.buscarMaiorPalindromo();
 				exibirMenu();
 				break;
 			case 2:
-				System.out.println("DADO DIGITADO FOI 2");
+				Primo primo = new Primo();
+				primo.buscarPrimo();
+				exibirMenu();
 				break;
 			case 3:
 				System.out.println("DADO DIGITADO FOI 3");
